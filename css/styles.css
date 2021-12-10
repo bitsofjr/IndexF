@@ -1,0 +1,88 @@
+
+body {background-color: rgb(0, 0, 0);}
+    .glow {
+  font-size: 40px;
+  color: #fff;
+  vertical-align: bottom;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #1ec8f3, 0 0 40px #1ec8f3, 0 0 50px #1ec8f3, 0 0 60px #1ec8f3, 0 0 70px #1ec8f3;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.glowing {
+  font-size: 40px;
+  color: #fff;
+  vertical-align: bottom;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes .glowing {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #da1ef3, 0 0 40px #da1ef3, 0 0 50px #da1ef3, 0 0 60px #da1ef3, 0 0 70px #da1ef3
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.flex-container {
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+a:link {
+  color: rgba(30, 10, 207, 0.932);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  
+.img {
+
+    overflow: hidden;
+    opacity: 0.7;
+}
+
+
+
+    
